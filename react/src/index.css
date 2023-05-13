@@ -1,0 +1,59 @@
+body{
+    background-color: #111111;
+  color: white;
+}
+.headingBox{
+  text-align: center;
+}
+.headingBox p{
+  font-size: 50px;
+}
+.choosenBox{
+  background-color: white;
+  color: black;
+  max-width: 600px;
+  text-align: center;
+  margin: 10px auto;
+
+
+}
+.choosenBox a{
+  font-size: 50px;
+}
+
+.imgFloatRight{
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.bigHeading{
+  font-size: 50px;
+}
+header a{
+  color: white;
+  text-decoration: none;
+  float: right;
+  width: 150px;
+}
+header .row{
+  align-items: center;
+}
+footer{
+  border-top: 1px solid grey;
+}
+.homeHero .row{
+  align-items: center;
+}
+.homeHero img{
+  max-width: 500px;
+}
+.homeHero{
+  padding: 40px 0px;
+}
+.textImageHomeWrap .row{
+align-items: center;
+}
+.textImageHomeWrap {
+padding: 40px 0px;
+}

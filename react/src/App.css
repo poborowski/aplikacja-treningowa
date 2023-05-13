@@ -1,0 +1,33 @@
+body{
+  background-color: #111111;
+  color: white;
+}
+.headingBox{
+  text-align: center;
+}
+.headingBox p{
+  font-size: 50px;
+}
+.choosenBox{
+  background-color: white;
+  color: black;
+  max-width: 600px;
+  text-align: center;
+  margin: 10px auto;
+
+
+}
+.choosenBox a{
+  font-size: 50px;
+}
+
+.imgFloatRight{
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.bigHeading{
+  font-size: 50px;
+}
