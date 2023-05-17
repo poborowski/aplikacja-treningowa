@@ -3,9 +3,9 @@ import Header from "../components/Header.jsx";
 
 function TodoList() {
   const [todos, setTodos] = useState([
-    {id: 1, text: "Zadanie 1", completed: false},
-    {id: 2, text: "Zadanie 2", completed: true},
-    {id: 3, text: "Zadanie 3", completed: false}
+    {id: 1, text: "3x12 pompek", completed: false},
+    {id: 2, text: "3x 7-10 podciągnieć", completed: true},
+    {id: 3, text: "3x10 pompek diamentowych", completed: false}
   ]);
 
   const handleCheckboxChange = (id) => {
@@ -25,8 +25,8 @@ function TodoList() {
     <div>
       <Header/>
       <div className="container">
-        <h1>Lista zadań</h1>
-        <ul>
+        <h1 className="listHeading">Lista zadań</h1>
+        <ul className="listToDo">
           {todos.map((todo) => (
             <li key={todo.id}>
 

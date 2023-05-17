@@ -19,6 +19,8 @@ body{
 }
 .choosenBox a{
   font-size: 50px;
+  text-decoration: none;
+  color: black;
 }
 
 .imgFloatRight{
@@ -56,4 +58,18 @@ align-items: center;
 }
 .textImageHomeWrap {
 padding: 40px 0px;
+}
+.listHeading{
+  text-align: center;
+}
+.listToDo li{
+  font-size: 25px;
+  list-style: none;
+  text-align: center;
+}
+
+.listToDo input{
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
 }

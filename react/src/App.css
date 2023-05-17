@@ -19,6 +19,8 @@ body{
 }
 .choosenBox a{
   font-size: 50px;
+  text-decoration: none;
+  color: black;
 }
 
 .imgFloatRight{
